@@ -17,7 +17,6 @@
     <p>Lunghezza stringa: <?php echo strlen($text); ?></p>
 
     <h1>Testo censurato</h1>
-
     <h2><?php echo str_ireplace($array, "***", $text); ?></h2>
 
   </body>
